@@ -1,0 +1,69 @@
+{
+    "geode": "4.3.1",
+    "version": "1.0.0",
+    "id": "malikhw47.iconswap",
+    "name": "Icon Randomiser",
+    "developer": "MalikHw47",
+    "description": "Changes your player icon each time you die!",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+    "resources": {
+        "sprites": {
+            "icon": "resources/icon.png"
+        }
+    },
+    "settings": {
+        "enabled": {
+            "name": "Enable Icon Swap",
+            "description": "Toggle the icon swap feature on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-cube": {
+            "name": "Swap Cube Icon",
+            "description": "Change cube icon on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-ship": {
+            "name": "Swap Ship Icon",
+            "description": "Change ship icon on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-ball": {
+            "name": "Swap Ball Icon",
+            "description": "Change ball icon on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-ufo": {
+            "name": "Swap UFO Icon",
+            "description": "Change UFO icon on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-wave": {
+            "name": "Swap Wave Icon",
+            "description": "Change wave icon on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-robot": {
+            "name": "Swap Robot Icon",
+            "description": "Change robot icon on death",
+            "type": "bool",
+            "default": true
+        },
+        "swap-spider": {
+            "name": "Swap Spider Icon",
+            "description": "Change spider icon on death",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
